@@ -1,0 +1,66 @@
+if s1, s2, and s3 are all x 
+or if s1, s2, and s3 are all o 
+
+
+allAreX =  s1, s2, and s3 are all x  (true/false)
+allAreO =  s1, s2, and s3 are all o  (true/false)
+
+allAreX = False
+allAreO = False
+
+# version 1
+if(allAreX == True or allAreO == True):
+	return True
+else:
+	return False
+
+# version 2
+if(allAreX or allAreO):
+	return True
+else:
+	return False
+
+# version
+return allAreX or allAreO
+
+
+
+allAreX = True  -> (allAreX == True) == True 
+		-> (allAreX) == True
+
+x = 7
+if (x > 100):
+	do stuff
+
+a = 2
+b = 4
+
+a + b  == 2 + 4 == 6
+
+
+allAreX = false
+allAreO = false
+
+allAreX or allAreO 		<==> false or false 		<==> false
+allAreX == True or allAreO == True <==> False == True or False == True <==> False or False <==> False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
