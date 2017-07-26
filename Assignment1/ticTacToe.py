@@ -1,3 +1,5 @@
+#This is my Tic Tac Toe game that I made. 
+#by Leah Penney
 square1 = "_"
 square2 = "_"
 square3 = "_"
